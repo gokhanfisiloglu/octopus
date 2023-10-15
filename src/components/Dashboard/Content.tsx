@@ -40,7 +40,7 @@ const Content: React.FC<ContentProps> = (props) => {
                     <ul className="flex flex-row justify-end pl-0 mb-0 list-none md-max:w-full ">
 
                         <li className="flex items-center">
-                            <a href="/signin" className="block px-0 py-2 font-semibold transition-all ease-nav-brand text-size-sm text-slate-500">
+                            <a href="/signin " className="block px-0 py-2 font-semibold transition-all ease-nav-brand text-size-sm text-slate-500">
                                 <div className={"flex items-center"}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none" className={"mr-1"}>
                                         <path d="M8.2959 1.51341C7.83981 1.02099 7.20278 0.749817 6.49966 0.749817C5.79278 0.749817 5.15364 1.01935 4.69966 1.50872C4.24075 2.00349 4.01716 2.67591 4.06966 3.402C4.17372 4.8345 5.2638 5.99981 6.49966 5.99981C7.73551 5.99981 8.82372 4.83474 8.92942 3.40247C8.98262 2.68294 8.75762 2.01193 8.2959 1.51341Z" fill="#718096"/>
