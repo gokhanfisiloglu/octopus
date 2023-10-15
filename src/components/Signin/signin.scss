@@ -28,6 +28,25 @@
   .container {
     max-width:960px
   }
+  .custom-nav {
+    position: unset;
+    margin-top: unset;
+    background: unset;
+    border-radius: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-nav2 {
+    position: unset;
+    margin-top: unset;
+    background: unset;
+    border-radius: unset;
+  }
+  .custom-sidebar {
+    margin-left: unset;
+    z-index: unset;
+  }
 }
 
 @media(min-width: 1140px) {

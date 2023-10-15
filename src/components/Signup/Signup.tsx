@@ -1,49 +1,18 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import NavSignUp from "../../../src/components/Nav/NavSignUp";
 import SvgManagement from "../../SvgManagement/SvgManagement";
 
-
-
 interface SignUpProps {
-    // Define the props for your component here
 }
 
 const initialForm = {name: '', email: '', password: ''}
 
 const Signup: React.FC<SignUpProps> = (props) => {
-    // Implement your component logic here
 
     const [form, setForm] = useState(initialForm);
     const [remember, setRemember] = useState(true)
 
-    const [test, setTest] = useState(0);
-
-    useEffect(() => {
-        const updateTest = () => {
-            const screenHeight = window.innerHeight;
-            const marginRatio = 0.25248;
-            const marginRatioWidth = 0.2650337076019282;
-            const customMargin = screenHeight * marginRatio;
-            setTest(customMargin);
-        };
-
-        // Initial update
-        updateTest();
-
-        // Update when the window is resized
-        window.addEventListener('resize', updateTest);
-
-        // Cleanup the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('resize', updateTest);
-        };
-    }, []);
-
     const [isOpen, setIsOpen] = useState(false);
-
-    const SignUp = () => {
-      console.log(form);
-    }
 
     const handleSignUp = () => {
 

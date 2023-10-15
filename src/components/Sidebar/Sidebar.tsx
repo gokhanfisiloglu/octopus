@@ -11,7 +11,7 @@ type SidebarProps = {
 const Sidebar: React.FC<SidebarProps> = (props) => {
 
     return (
-        <aside className={"max-w-[15.625rem] ease-nav-brand z-990 fixed inset-y-0 lg:my-4 block w-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-white p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 ml-4 -translate-x-full xl:translate-x-0 xl:bg-transparent ps " + props.className}>
+        <aside className={"custom-sidebar max-w-[15.625rem] ease-nav-brand z-990 fixed inset-y-0 lg:my-4 block w-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-white p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 ml-4 -translate-x-full xl:translate-x-0 xl:bg-transparent ps " + props.className}>
             <div className="h-19.5">
                 <i className="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden" sidenav-close="" aria-hidden="true"></i>
                 <a className="block px-8 py-6 m-0 text-size-sm whitespace-nowrap text-slate-700" href="#" target="_blank">

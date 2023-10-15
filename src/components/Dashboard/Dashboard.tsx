@@ -16,7 +16,7 @@ const Dashboard: React.FC<DashboardProps> = (props) => {
                     onClick={()=> setToggle(!toggle)}>
                 <SvgManagement svgName={'dashboard'}  w={"11"} h={'12'} f={'#2D3748'}/>
             </button>
-            <Sidebar className={(toggle ? "ml-[17.25rem] z-30 my-0" : "")}/>
+            <Sidebar className={(toggle ? "ml-[17.25rem] z-[60] my-0" : "hidden")}/>
             <Content/>
         </div>
     );

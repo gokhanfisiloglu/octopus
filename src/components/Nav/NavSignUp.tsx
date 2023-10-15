@@ -1,12 +1,7 @@
 import React, {useEffect, useState} from 'react';
-
-import myImage from '../../images/signinbg.png';
 import SvgManagement from "../../SvgManagement/SvgManagement";
 
-
-interface NavSignUp {
-    // Define the props for your component here
-}
+interface NavSignUp {}
 
 const NavSignUp: React.FC<NavSignUp> = (props) => {
 
@@ -24,7 +19,7 @@ const NavSignUp: React.FC<NavSignUp> = (props) => {
                             onClick={()=> setToggle(!toggle)}>
                             <SvgManagement svgName={'dashboard'}  w={"11"} h={'12'} f={'#2D3748'}/>
                         </button>
-                        <div navbar-menu="" className={'lg:block items-center flex-grow overflow-hidden transition-all duration-500 ease-soft lg-max:max-h-0 basis-full lg:flex lg:basis-auto ' + (toggle ? 'block absolute mt-[200px] bg-gray-700 rounded-mini' : 'hidden')}>
+                        <div navbar-menu="" className={'custom-nav lg:block items-center flex-grow overflow-hidden transition-all duration-500 ease-soft lg-max:max-h-0 basis-full lg:flex lg:basis-auto ' + (toggle ? 'block absolute mt-[200px] bg-gray-700 rounded-mini' : 'hidden')}>
                             <ul className="flex flex-col pl-0 mx-auto mb-0 list-none lg:flex-row xl:ml-auto">
                                 <li>
                                     <a className="uppercase flex items-center px-4 py-2 mr-2 font-bold transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-text-xxs  lg:px-2

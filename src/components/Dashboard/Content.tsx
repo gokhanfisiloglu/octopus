@@ -16,14 +16,7 @@ const Content: React.FC<ContentProps> = (props) => {
         <nav className="relative flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all shadow-none duration-250 ease-soft-in rounded-2xl lg:flex-nowrap lg:justify-start" navbar-main="" navbar-scroll="true">
             <div className="flex items-center justify-between w-full px-4 py-1 mx-auto flex-wrap-inherit">
                 <nav>
-
-                    <ol className="flex flex-wrap pt-1 bg-transparent rounded-lg">
-                        <li className=" leading-normal text-size-sm">
-                            <a className="opacity-50 text-slate-700" href="javascript:;">Pages</a>
-                        </li>
-                        <li className="text-size-sm pl-2 capitalize leading-normal text-slate-700 before:float-left before:pr-2 before:text-gray-600 before:content-['/']" aria-current="page">dashboard</li>
-                    </ol>
-                    <h6 className="mb-0 font-bold capitalize">dashboard</h6>
+                    <h6 className="mb-0 mt-3 font-bold capitalize">dashboard</h6>
                 </nav>
                 <div className="flex items-center mt-2 grow sm:mt-0 sm:mr-6md:mr-0 lg:flex lg:basis-auto">
                     <div className="flex items-center md:ml-auto md:pr-4">
