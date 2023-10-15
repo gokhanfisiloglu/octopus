@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+.w-custom {
+  width: calc(100vw - 48px);
+}
+
+@layer utilities {
+  .p-custom-input {
+    padding: 15.15px 19px 15.15px 20px;
+  }
+}
+
+.icon-hover-color:hover {
+  fill: red; /* New fill color on hover */
+}
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+.shadow-soft-xl {
+  --tw-shadow: 0 20px 27px 0 rgba(0,0,0,0.05);
+  --tw-shadow-colored: 0 20px 27px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+.bg-gradient-fuchsia {
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+}
+
+.shadow-soft-2xl {
+  --tw-shadow: 0 .3125rem .625rem 0 rgba(0,0,0,.12);
+  --tw-shadow-colored: 0 .3125rem .625rem 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+
+.after\:bg-gradient-slate:after {
+
+}
+
+.py-2\.7 {
+  padding-top: 0.675rem;
+  padding-bottom: 0.675rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h5{
+  font-size: 1.25rem;
+  line-height: 1.375;
+}
+
+p {
+  /*line-height: 1.625;
+  font-weight: 400;*/
+ /* margin-bottom: 1rem;*/
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  opacity: .25;
+}
+
+.webkit-box {
+  display: -webkit-box;
+}
+
+
