@@ -605,7 +605,6 @@ const Content: React.FC<ContentProps> = (props) => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

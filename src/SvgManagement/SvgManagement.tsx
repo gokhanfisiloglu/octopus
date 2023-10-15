@@ -1,11 +1,11 @@
 import React from 'react';
-import DashboardSVG from "../SvgManagement/SvgFiles/DashboardSVG";
-import ProfileSVG from "../SvgManagement/SvgFiles/ProfileSVG";
-import FacebookSVG from "./SvgFiles/FacebookSVG";
-import SignInSVG from "./SvgFiles/SignInSVG";
-import SignUpSVG from "./SvgFiles/SignUpSVG";
-import GoogleSVG from "./SvgFiles/GoogleSVG";
-import AppleSVG from "./SvgFiles/AppleSVG";
+import DashboardSVG from "./svgFiles/DashboardSVG";
+import ProfileSVG from "./svgFiles/ProfileSVG";
+import FacebookSVG from "./svgFiles/FacebookSVG";
+import SignInSVG from "./svgFiles/SignInSVG";
+import SignUpSVG from "./svgFiles/SignUpSVG";
+import GoogleSVG from "./svgFiles/GoogleSVG";
+import AppleSVG from "./svgFiles/AppleSVG";
 
 type SvgManagementProps = {
     svgName: string;

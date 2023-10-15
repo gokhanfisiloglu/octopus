@@ -14,7 +14,7 @@ function App() {
     const userDataString = sessionStorage.getItem("userData");
     const userData = userDataString ? JSON.parse(userDataString) : null;
 
-    if (!userData && window.location.pathname !== "/signin") {
+    if (!userData && (window.location.pathname === "/dashboard" ) ) {
         const signInURL = "/signin";
 
 
